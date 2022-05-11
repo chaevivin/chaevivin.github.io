@@ -138,6 +138,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .content {
@@ -272,12 +273,13 @@ img {
 }
 
 .archive_type {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .archive_year {
+    font-weight: bold;
     font-size: 1rem;
     margin-top: 1.4rem;
     margin-bottom: 0.6rem;

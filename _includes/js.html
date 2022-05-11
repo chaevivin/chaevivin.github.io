@@ -43,12 +43,12 @@
         const setTheme = () => {
             switch (userThemePreference.theme) {
                 case 'dark':
-                    toggle.checked = true;
+                    toggle.checked = false;
                     html.classList.add('dark');
                     html.classList.remove('light');
                     break;
                 case 'light':
-                    toggle.checked = false;
+                    toggle.checked = true;
                     html.classList.remove('dark');
                     html.classList.add('light');
                     break;

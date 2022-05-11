@@ -5,6 +5,7 @@
 @import 'normalize';
 @import 'code_style';
 @import 'flexible';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
 
 
 /* 0. Variables
@@ -111,7 +112,8 @@ body {
     height: 100%;
     font-weight: normal;
     font-style: normal;
-    font-family: -apple-system, BlinkMacSystemFont, 'Titillium Web', "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+//     font-family: -apple-system, BlinkMacSystemFont, 'Titillium Web', "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: var(--bg_color);
@@ -135,6 +137,7 @@ img {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
 }
 
 .content {
@@ -269,13 +272,13 @@ img {
 }
 
 .archive_type {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .archive_year {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1.4rem;
     margin-bottom: 0.6rem;
 }
@@ -290,7 +293,7 @@ img {
     position: absolute;
     top: 0;
     border-radius: var(--border_radius);
-    box-shadow: 0 0 2px 2px var(--shadow_color);
+    box-shadow: 0 0 1px 1px var(--shadow_color);
 
     @include mobile-only {
         width: 100%;
@@ -347,7 +350,7 @@ img {
 .header_name {
     display: block;
     color: var(--name_font);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .header_job {
@@ -355,7 +358,7 @@ img {
     margin-top: .1rem;
     color: var(--job_font);
     font-size: 0.75em;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .theme_changer {   

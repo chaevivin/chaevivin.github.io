@@ -147,7 +147,7 @@ img {
     position: relative;
     min-height: 85%;
     border-radius: 15px;
-    box-shadow: 0 0 2px 2px var(--shadow_color);
+    box-shadow: 0 0 1px 1px var(--shadow_color);
     padding-bottom: 2rem;
 
     @include breakpoint(medium) {
@@ -334,10 +334,10 @@ img {
         @extend .header_circle;
     }
 
-    &:hover {
-        cursor: pointer;
-        animation: jiggle 2s ease-in-out infinite;
-    }
+//     &:hover {
+//         cursor: pointer;
+//         animation: jiggle 2s ease-in-out infinite;
+//     }
 
     @include mobile-only {
         bottom: 0;
@@ -520,7 +520,7 @@ img {
 
 .post_title {
     color: var(--post_title);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2.2rem;
     font-weight: 700;
 
@@ -544,6 +544,7 @@ img {
     color: var(--post_date);
     letter-spacing: -0.5px;
     line-height: 1;
+    font-size: 0.8rem;
 }
 
 .post_categories {
@@ -552,6 +553,7 @@ img {
 
     a {
         color: var(--nav_font);
+        font-size: 0.8rem;
 
         &:hover,
         &:focus {
@@ -583,10 +585,12 @@ img {
 
     p {
         max-width: 49rem;
+        font-size: 0.9rem;
     }
 
     a {
         color: var(--post_link);
+        font-size: 0.9rem;
 
         &:hover,
         &:focus {
@@ -596,6 +600,7 @@ img {
 
     li {
         margin-bottom: 0.3rem;
+        font-size: 0.9rem;
     }
 
     pre {

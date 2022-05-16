@@ -41,6 +41,9 @@ defaults:
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Filtering Content
 show_drafts: null

@@ -6,7 +6,7 @@ comments: true
 
 # 선택자 (Selector) 종류
 
-1. 전체 선택자 : 전체 요소 선택
+- 전체 선택자 : 전체 요소 선택
 {% highlight css %}
 * {
 	color: red;
@@ -15,7 +15,7 @@ comments: true
 
 <br>
 
-2. 태그 선택자 : 태그 이름으로 선택
+- 태그 선택자 : 태그 이름으로 선택
     - HTML에 있는 해당 태그 모두 선택
     - 앞,뒤에 기호 없으면 태그 선택자
 {% highlight css %}
@@ -26,7 +26,7 @@ div {
 
 <br>
 
-3. 클래스 선택자 (.) : HTML 태그의 클래스 값으로 선택
+- 클래스 선택자 (.) : HTML 태그의 클래스 값으로 선택
     - 활용도 굿 👍
 {% highlight CSS %}
 .test {
@@ -39,7 +39,7 @@ div {
 
 <br>
 
-4. 아이디 선택자 (#) : HTML 태그의 ID 값으로 선택 (ID는 고유해야 함)
+- 아이디 선택자 (#) : HTML 태그의 ID 값으로 선택 (ID는 고유해야 함)
     - 중요할 때 사용
 {% highlight css %}
 #test {
@@ -53,7 +53,7 @@ div {
 
 # 복합 선택자 
 
-1. 일치 선택자 : 여러 선택자들을 동시에 만족하는 요소 선택 (EF)
+- 일치 선택자 : 여러 선택자들을 동시에 만족하는 요소 선택 (EF)
 {% highlight css %}
 div.test {  /* <div>태그와 test 클래스를 갖고 있는 요소 선택 */
     color: yellow;
@@ -66,7 +66,7 @@ div.test {  /* <div>태그와 test 클래스를 갖고 있는 요소 선택 */
 
 <br>
 
-2. 자식 선택자 : 어떤 선택자의 자식 요소를 선택 (E > F)
+- 자식 선택자 : 어떤 선택자의 자식 요소를 선택 (E > F)
     - E (조건) > F (실제로 찾아야 되는 것)
 {% highlight css %}
 div > .test {  /* <div>태그의 자식 요소 중에 test 클래스를 갖고 있는 요소 선택 */
@@ -88,7 +88,7 @@ div > .test {  /* <div>태그의 자식 요소 중에 test 클래스를 갖고 �
 
 # 가상 클래스 선택자
 
-1. hover : 어떤 요소에 마우스를 올리고 있는 동안에만 그 요소 선택
+- hover : 어떤 요소에 마우스를 올리고 있는 동안에만 그 요소 선택
 {% highlight css %}
 div {
     color: yellow;
@@ -100,7 +100,7 @@ div:hover {  /* <div> 태그에 마우스를 올리면 색이 yellow -> red */
 
 <br>
 
-2. active : 요소를 마우스를 클릭하는 동안에만 그 요소 선택
+- active : 요소를 마우스를 클릭하는 동안에만 그 요소 선택
 {% highlight css %}
 div {
     width: 100px;
@@ -114,7 +114,7 @@ div:hover {  /* <div> 태그를 클릭했을 때 yellow -> red */
 
 <br>
 
-3. First Child : 형제 요소들 중 첫번째 요소 선택
+- First Child : 형제 요소들 중 첫번째 요소 선택
 {% highlight css %}
 li: first-child {
     color: yellow;
@@ -130,7 +130,7 @@ li: first-child {
 
 <br>
 
-4. Last Child : 형제 요소들 중 마지막 요소 선택
+- Last Child : 형제 요소들 중 마지막 요소 선택
 {% highlight css %}
 li: first-child {
     color: yellow;
@@ -146,7 +146,7 @@ li: first-child {
 
 <br>
 
-5. nth Child : 형제 요소들 중 n번째 요소 선택
+- nth Child : 형제 요소들 중 n번째 요소 선택
     - 0번째는 존재하지 않으므로 선택되지 않음
 {% highlight css %}
 li: nth-child(2n) {  /* 짝수번째 요소들만 선택 */
@@ -180,7 +180,7 @@ li: nth-child(n+3) {  /* 3번째 요소부터 이후 요소들 선택 */
 
 <br>
 
-6. 부정 선택자 : S가 아닌 E 선택 (E:not(S))
+- 부정 선택자 : S가 아닌 E 선택 (E:not(S))
 {% highlight css %}
 li: not(.apple) {  /* apple 클래스 빼고 li 태그 모두 선택 */
     color: yellow;

@@ -9,7 +9,7 @@ comments: true
 
 <br>
 
-1. before : E 요소 내부의 앞에 내용(content) 삽입 (E::before)
+- before : E 요소 내부의 앞에 내용(content) 삽입 (E::before)
 {% highlight html %}
 <div>1</div>
 <div>2</div>
@@ -23,7 +23,7 @@ div::before {  /* 모든 <div>태그 앞에 "number"라는 내용이 붙음 -> n
 
 <br>
 
-2. after : E 요소 내부 뒤에 내용 삽입 (E::after)
+- after : E 요소 내부 뒤에 내용 삽입 (E::after)
 {% highlight html %}
 <div>1</div>
 <div>2</div>

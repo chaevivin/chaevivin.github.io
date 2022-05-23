@@ -9,7 +9,7 @@ comments: true
 
 <br>
 
-- 반응형 웹 예시 : https://chaevivin.github.io/Portfolio/ 
+- 반응형 웹 예시 : <https://chaevivin.github.io/Portfolio/>
     - 브라우저의 크기를 늘였다 줄였다 하면서 화면이 어떻게 바뀌는 지 확인해 보세요.
 
 <br>
